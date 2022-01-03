@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <h2 class="text-center">Add a New Quote</h2>
   <hr>
-  <form>
+  <form #quoteForm="ngForm" (ngSubmit)="submitQuote()">
     <div class="form-group">
       <label for="quote">Qoute</label>
       <textarea name="quote" id="quote" cols="30" rows="10" class="form-control" required></textarea>

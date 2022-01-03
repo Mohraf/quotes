@@ -14,7 +14,7 @@
 
     <div class="form-group">
       <label for="postedBy">Posted By</label>
-      <input type="text" name="postedBy" class="form-control" id="postedBy" required>
+      <input type="text" name="postedBy" class="form-control" id="postedBy" [(ngModel)]="newQuote.postedBy" #postedBy="ngModel" required>
     </div>
 
     <button type="submit" class="btn btn-primary mt-2">Add Quote</button>

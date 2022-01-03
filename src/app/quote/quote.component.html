@@ -11,6 +11,13 @@
           </p>
           <button class="btn btn-secondary" (click)="toggleDetails(i)">Toggle Details</button>
         </div>
+
+        <div>
+          <app-quote-details
+            *ngIf="quote.showDescription"
+            [quote]="quote"
+          ></app-quote-details>
+        </div>
       </div>
     </div>
 

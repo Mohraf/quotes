@@ -11,6 +11,15 @@
           <p id="{{i}}">
             {{ quote.quote }}
           </p>
+          <div class="row mb-3">
+            <div class="col-md-3">
+              <button class="btn btn-outline-primary" (click)="upvoteQuote(i)">Like</button>
+            </div>
+
+            <div class="col-md-3">
+              <button class="btn btn-outline-danger" (click)="downvoteQuote(i)">Dislike</button>
+            </div>
+          </div>
           <button class="btn btn-secondary" (click)="toggleDetails(i)">Toggle Details</button>
         </div>
 

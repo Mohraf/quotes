@@ -7,7 +7,9 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes: Quote[] = [];
+  quotes: Quote[] = [
+    new Quote(0, "Every dog has it's day", "Unknown", "Amos", 0, 0, new Date(2019, 5, 11)),
+  ];
 
   toggleDetails(index: number) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;

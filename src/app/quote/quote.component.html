@@ -6,8 +6,8 @@
     <div class="col-md-6">
       <h2 class="text-center">Quotes</h2>
       <hr>
-      <div *ngFor="let quote of quotes; let i = index">
-        <div class="mt-3">
+      <div class="border rounded p-3 mb-2" *ngFor="let quote of quotes; let i = index">
+        <div>
           <p id="{{i}}">
             {{ quote.quote }}
           </p>

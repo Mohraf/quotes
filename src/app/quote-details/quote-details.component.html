@@ -18,4 +18,12 @@
   <div class="row mt-2">
     <p>It's {{quote.dayAdded | dateCount}} days since this quote was posted.</p>
   </div>
+
+  <div class="row mt-2">
+    <div class="col-md-4">
+      <button (click)="quoteDelete(true)" class="btn btn-danger">
+        Delete Quote
+      </button>
+    </div>
+  </div>
 </div>

@@ -1,5 +1,6 @@
 # Quotes
-
+By Amos Okello
+## Description
 Quotes is an application that lets one post a quote through a form.
 The quote can then be upvoted or downvoted.
 
@@ -31,3 +32,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Support and contact details
+amosokello04@gmail.com
+
+## License
+This is under the [MIT](LICENSE) license
+Copyright (c) 2022 **Amos Okello**
